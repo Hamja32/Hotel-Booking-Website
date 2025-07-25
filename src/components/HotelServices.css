@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.hotel-section {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #dfdcdc; */
+  color: #ebeaea;
+  padding: 80px 90px;
+}
+
+.hotel-header {
+  max-width: 800px;
+  /* margin: 0 auto 60px; */
+  padding-bottom: 20px;
+}
+
+.subheading {
+  color: #d4aa6f;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.2;
+}
+.description_box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.description {
+  margin-top: 20px;
+  /* float: right; */
+  color: #575656;
+  font-size: 14px;
+  max-width: 600px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.service-card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 250px;
+
+  background-color: #1a1a1a;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 10px 0;
+  font-family: "Forum";
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #d4aa6f;
+}
+
+.discover-btn {
+  font-size: 14px;
+  color: #d4aa6f;
+  background: none;
+  border: none;
+  border-top: 1px solid #d4aa6f;
+  border-bottom: 1px solid #d4aa6f;
+  /* padding-top: 10px; */
+  font-style: italic;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  font-family: "Poppins";
+}
+
+.light {
+  /* background-color: #eee; */
+  background-color: #dfdcdc;
+  color: #000;
+}
+
+.light p {
+  color: #333;
+}
+
+.dark {
+  background-color: #1a1a1a;
+}
+
+.blank_card {
+  background-color: #e0e0e0;
+}

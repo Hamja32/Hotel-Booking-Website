@@ -1,0 +1,45 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#2d2d2d, gray, #2d2d2d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero_text {
+  width: 70%;
+}
+
+.hero_text h1 {
+  font-size: 112px;
+  font-family: "Forum";
+  color: #ffff;
+  font-weight: 100;
+}
+.hero_text p {
+  font-size: 24px;
+  color: #bf9766;
+}
+
+.hero_text .btn {
+  margin-top: 30px;
+}
+
+.btn button {
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+}
+.right_arrow {
+  margin-left: 10px;
+}

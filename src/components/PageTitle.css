@@ -1,0 +1,27 @@
+.line {
+  height: 100px;
+  color: #ccac85;
+  width: 1px;
+  /* border: 1px solid #ccac85; */
+  background: #ccac85;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.page_title p {
+  color: #ccac85;
+  font-size: 24px;
+}
+.page_title h2 {
+  font-family: "Forum";
+  font-size: 64px;
+  font-weight: 100;
+}

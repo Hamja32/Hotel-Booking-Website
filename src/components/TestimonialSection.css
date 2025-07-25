@@ -1,0 +1,108 @@
+.testimonial-section {
+  background: linear-gradient(to bottom, #1b1b1b, #888, #000);
+  padding: 20px 30px;
+  /* margin-bottom: 120px; */
+  padding-bottom: 120px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.testimonial-header .sub-heading {
+  color: #c79e61;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.testimonial-header h2 {
+  font-size: 40px;
+  margin: 10px 0 20px;
+}
+
+.testimonial-header .line {
+  height: 60px;
+  width: 1px;
+  background-color: #ddd;
+  margin: 0 auto 20px;
+}
+.testimonial-scroll {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding: 20px 10px;
+  scroll-snap-type: x mandatory;
+  cursor: grab;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 transparent; /* Firefox */
+}
+
+/* Hide scrollbar in Webkit (Chrome, Edge, Safari) */
+.testimonial-scroll::-webkit-scrollbar {
+  height: 6px; /* You can reduce this to hide it completely */
+}
+
+.testimonial-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.testimonial-scroll::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.testimonial-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Cursor change on hover */
+.testimonial-scroll:hover {
+  cursor: grab;
+}
+
+.testimonial-card {
+  flex: 0 0 80%;
+  max-width: 800px;
+  background-color: #1e1e1e;
+  /* border-radius: 10px; */
+  display: flex;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.testimonial-left {
+  flex: 1;
+  background-color: #626262; /* Gray placeholder */
+}
+
+.testimonial-right {
+  flex: 2;
+  padding: 30px;
+  text-align: left;
+  position: relative;
+}
+
+.stars {
+  color: #f2b01e;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-weight: 500;
+  color: #c79e61;
+}
+
+.role {
+  font-size: 14px;
+  color: #aaa;
+}

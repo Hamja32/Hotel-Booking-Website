@@ -1,0 +1,179 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+.team-section {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  color: #111;
+}
+
+.member_name {
+  font-family: "Forum";
+  color: #111;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1);
+}
+.team-card:hover .team-image {
+  transform: scale(0.9);
+}
+.team-image:hover .edit-btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+.team-image {
+  width: 100%;
+  height: 250px;
+  /* background-color: #c79d63; */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+/* 
+.team-image:hover {
+  background-color: #ccc;
+} */
+
+.team-socials {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-socials a {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.team-socials a:hover {
+  background: #c79d63;
+}
+
+.team-role {
+  color: #c79d63;
+  margin-top: 20px;
+  font-weight: 500;
+  border-top: 1px solid #c79d63;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.team-form {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-form input,
+.team-form button {
+  padding: 8px;
+  font-size: 1rem;
+}
+.submitBtn {
+  background: rgb(134, 240, 101);
+  font-weight: 600;
+  font-family: "Forum";
+}
+
+.edit-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #f98158;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* display: none; */
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.add-member-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.add-member-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* .team-form {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.team-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+
+
+.edit-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+} */
+.team-form button {
+  padding: 10px 20px;
+  border: 2px solid #6fb5ff;
+  background-color: #28a745;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Forum";
+  /* border: none; */
+  cursor: pointer;
+  /* border-radius: 4px; */
+}
