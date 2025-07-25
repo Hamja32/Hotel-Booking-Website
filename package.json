@@ -1,8 +1,12 @@
 {
   "name": "first-app",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "Hi/ Guys,\r 🌐 Live Demo (Deployed App): https://hotel-booking-imperial.netlify.app/\r 📹 Screen Recording (Google Drive): https://drive.google.com/file/d/1utRNj-QRGMVd425-zP8Rc_ocLLEQJfO-/view?usp=sharing",
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
